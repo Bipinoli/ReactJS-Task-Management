@@ -1,0 +1,11 @@
+.addItem {
+    margin: 5px 0px;
+    padding: 5px 0;
+    background-color: #FF9690;
+    color: white;
+    font-size: 24px;
+}
+
+.addItem:hover {
+    box-shadow: 0px 5px 20px #FFCAC7;
+}

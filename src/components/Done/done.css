@@ -1,0 +1,32 @@
+.done {
+    text-align: center;
+    height: 100%;
+    width: 32vw;
+}
+
+.done-header {
+    background: #9AE1D3;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.done-list {
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 5px;
+    overflow: auto;
+    height: 80vh;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
